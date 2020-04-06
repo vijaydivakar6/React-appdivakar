@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import {Switch,Route } from 'react-router-dom';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Navbar from "./components/Navbar";
 import ProductList from "./components/ProductList";
+import Carousal from "./components/Carousal";
 import Details from "./components/Details";
 import Cart from "./components/Cart";
 import Default from "./components/Default";
@@ -16,6 +18,7 @@ class App extends Component {
  <Navbar/>
  <Switch>
   <Route exact path="/" component={ProductList}/>
+  <Route exact path="/hello" component={Carousal}/>
  <Route path="/details" component={Details}/>
  <Route path="/cart" component={Cart}/>
  <Route  component={Default}/>

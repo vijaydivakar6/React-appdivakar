@@ -8,8 +8,10 @@
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
     "react": "^16.13.0",
+    "react-bootstrap-carousel": "^4.0.3",
     "react-dom": "^16.13.0",
     "react-paypal-express-checkout": "^1.0.5",
+    "react-responsive-carousel": "^3.1.54",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
     "styled-components": "^5.0.1"
